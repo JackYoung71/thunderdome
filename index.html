@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to the THUNDERDOME1</title>
+    <title>Welcome to the THUNDERDOME2</title>
     <style>
         body, html {
             height: 100%;
@@ -12,16 +12,24 @@
             justify-content: center;
             align-items: center;
             background-color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            padding: 10px;
         }
         h1 {
-            font-size: 10vw; /* Make the font size responsive */
+            font-size: 10vw; /* responsive font size */
             color: black;
-            text-align: center;
-            white-space: nowrap; /* Prevent text from wrapping */
+            margin: 0;
+            white-space: normal; /* Allow text to wrap to new lines */
+            word-wrap: break-word; /* Ensure long words break if necessary */
         }
     </style>
 </head>
 <body>
-    <h1>WELCOME TO THE THUNDERDOME</h1>
+    <div class="container">
+        <h1>WELCOME TO THE THUNDERDOME</h1>
+    </div>
 </body>
 </html>
